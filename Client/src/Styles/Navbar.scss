@@ -1,0 +1,126 @@
+//@import "../Variables/variables.scss";
+@import "../Variables/CssVariables.css";
+
+.navbar {
+  border-bottom: 1px solid var(--basic-color);
+  height: 55px;
+  font-family: "Montserrat", sans-serif;
+  //bottom: 10px;
+
+  .navbar-brand {
+    margin-left: 15px;
+    color: var(--basic-color);
+  }
+
+  .nav-item {
+    margin: auto 15px;
+    color: var(--basic-color);
+  }
+
+  .nav-link {
+    position: relative;
+    color: var(--basic-color);
+
+    &::after {
+      content: "";
+      opacity: 0;
+      transition: all 0.2s;
+      height: 2px;
+      width: 100%;
+      background-color: var(--basic-color);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    &:hover::after {
+      opacity: 1;
+    }
+    &:hover {
+      color: var(--basic-color);
+    }
+  }
+
+  .bg-body-tertiary {
+    border-bottom-width: 0px;
+    bottom: 12px;
+  }
+
+  .form-control {
+    height: 30px;
+    margin: auto 0;
+  }
+  .btn {
+    display: flex;
+    padding: 8px;
+    margin: auto 0;
+    bottom: 3px;
+    //height: 30px;
+
+    .search-icon {
+      margin: 0;
+      width: 20px;
+      height: 20px;
+      color: var(--basic-color);
+      background-color: none;
+      padding: 0;
+      bottom: 5px;
+    }
+  }
+}
+//////////////////////////////////
+
+.switch {
+  height: 20px;
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--switcher);
+  border-radius: 50px;
+  padding: 5px;
+  position: relative;
+  bottom: 37px;
+
+  cursor: pointer;
+}
+
+.orangeSwitch {
+  background-color: #8b66c7;
+}
+
+.switch-radios {
+  position: relative;
+}
+
+.switch-radios > * {
+  position: absolute;
+}
+
+input[type="radio"]:first-of-type {
+  right: 22px;
+}
+
+input[type="radio"]:nth-of-type(2) {
+  right: -8px;
+}
+
+input[type="radio"]:last-of-type {
+  right: -35px;
+}
+
+.ball {
+  background: var(--basic-color);
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+  top: 2.5px;
+  transition: all 0.5s ease;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  opacity: 0;
+}

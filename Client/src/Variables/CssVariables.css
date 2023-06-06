@@ -1,0 +1,126 @@
+:root {
+  --switcher: rgba(154, 145, 135, 0.693);
+
+  --background-app-color: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
+
+  --neonText-color: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f09,
+    0 0 82px rgb(255, 124, 0), 0 0 92px rgb(255, 124, 0),
+    0 0 102px rgb(0, 255, 64), 0 0 151px rgb(255, 124, 0);
+
+  --basic-color: rgb(255, 124, 0);
+  --hover-color: rgb(249, 237, 3);
+  --main-card-color: linear-gradient(
+    45deg,
+    rgb(58, 56, 56),
+    rgb(33, 63, 36),
+    rgba(9, 7, 7, 0.693)
+  );
+
+  --cards-color: linear-gradient(
+    45deg,
+    rgb(16, 12, 12),
+    rgb(17, 1, 1),
+    rgb(95, 58, 13)
+  );
+
+  --table-background-color: rgb(58, 54, 54);
+  --table-rows-hover: rgb(255, 163, 77);
+  --table-text-color: rgb(255, 124, 0);
+  --table-text-color-hover: rgb(58, 54, 54);
+  --table-titles-hover: rgb(19, 30, 37);
+  --watched-pin-color: rgb(255, 124, 0);
+  --unwatched-pin-color: rgb(74, 59, 40);
+
+  --home-page-posters-color: rgb(229, 229, 229);
+
+  --movie-card-button-add: rgb(255, 163, 77);
+  --movie-card-button-added: rgb(255, 124, 0);
+}
+
+.purple-theme {
+  --switcher: rgb(19, 30, 37);
+
+  --background-app-color: linear-gradient(to right, #434343 0%, black 100%);
+  /* --background-app-color: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+  --neonText-color: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f09,
+    0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09, 0 0 151px #f09;
+
+  --basic-color: rgb(204, 32, 226);
+  --hover-color: rgb(177, 15, 137);
+  --main-card-color: linear-gradient(
+    45deg,
+    rgb(0, 0, 0),
+    rgb(19, 1, 20),
+    rgba(44, 38, 38, 0.693)
+  );
+  --cards-color: linear-gradient(
+    45deg,
+    rgb(36, 19, 19),
+    rgb(40, 23, 41),
+    rgba(0, 0, 0, 0.693)
+  );
+
+  --table-background-color: rgb(37, 35, 35);
+  --table-text-color: rgb(206, 27, 230);
+
+  --table-rows-hover: rgb(78, 71, 71);
+
+  --home-page-posters-color: rgb(255, 251, 251);
+
+  --watched-pin-color: rgb(253, 5, 129);
+  --unwatched-pin-color: rgb(64, 44, 72);
+
+  --movie-card-button-add: rgb(253, 5, 129);
+  --movie-card-button-added: rgb(218, 64, 218);
+}
+
+.blue-theme {
+  --background-app-color: linear-gradient(
+    109.6deg,
+    rgb(20, 30, 48) 11.2%,
+    rgb(36, 59, 85) 91.1%
+  );
+
+  --switcher: rgb(61, 72, 99);
+
+  --neonText-color: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f09,
+    0 0 82px rgb(185, 8, 8), 0 0 92px rgb(191, 43, 50), 0 0 102px rgb(255, 0, 0),
+    0 0 151px rgb(255, 4, 4);
+
+  --basic-color: rgb(180, 15, 3);
+  --hover-color: rgb(214, 72, 72);
+
+  --main-card-color: linear-gradient(
+    45deg,
+    rgb(86, 39, 39),
+    rgb(48, 15, 15),
+    rgba(9, 7, 7, 0.693)
+  );
+  --cards-color: linear-gradient(
+    45deg,
+    rgb(91, 4, 4),
+    rgb(71, 14, 14),
+    rgb(98, 5, 5)
+  );
+
+  --table-background-color: rgb(102, 12, 12);
+  --table-text-color: rgb(181, 185, 193);
+
+  --table-rows-hover: rgb(28, 23, 23);
+  --table-titles-hover: rgb(255, 0, 0);
+  --watched-pin-color: rgb(255, 2, 2);
+  --unwatched-pin-color: rgb(175, 125, 125);
+
+  --home-page-posters-color: rgb(68, 61, 61);
+
+  --movie-card-button-add: rgb(165, 15, 4);
+  --movie-card-button-added: rgb(255, 0, 0);
+}
